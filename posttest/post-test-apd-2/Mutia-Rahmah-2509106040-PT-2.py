@@ -12,15 +12,11 @@ print("4.", "nilai =", daftar_data[3], "| tipe =", type(daftar_data[3]))
 hasil_penjumlahan_1 = daftar_data[0] + daftar_data[1]
 print ("hasil penjumlahan = ",hasil_penjumlahan_1)
 
-# Konversi tipe (langsung)
-# int   -> str
-# float -> int
-# str   -> float
-# bool  -> int
-nilai0_baru = str(daftar_data[0])    # 10 -> "10"
-nilai1_baru = int(daftar_data[1])    # 2.5 -> 2
-nilai2_baru = float(daftar_data[2])  # "3.14" -> 3.14
-nilai3_baru = int(daftar_data[3])    # True -> 1
+
+nilai0_baru = str(daftar_data[0])   
+nilai1_baru = int(daftar_data[1])    
+nilai2_baru = float(daftar_data[2]) 
+nilai3_baru = int(daftar_data[3])
 
 daftar_setelah = [nilai0_baru, nilai1_baru, nilai2_baru, nilai3_baru]
 
