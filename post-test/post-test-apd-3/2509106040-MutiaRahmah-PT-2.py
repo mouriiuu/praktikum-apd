@@ -7,6 +7,7 @@ a = int(input("Sisi A : "))
 b = int(input("Sisi B : "))
 c = int(input("Sisi C : "))
 
+
 print("\n" + "=" * 30)
 print("|           HASIL            |")
 print("=" * 30)
@@ -22,11 +23,13 @@ if (a + b > c) and (a + c > b) and (b + c > a):
         print("Segitiga sembarang, karna ketiga sisinya berbeda")
 
     print("\n" + "-" * 30)
-    print("          Hasil Luas")
+    print("     Hitung Juga Luasnya ")
     print("-" * 30)
     
-    s = (a + b + c) / 2
-    luas = (s * (s - a) * (s - b) * (s - c)) ** 0.5
+    alas = int(input("Masukkan Alasnya : "))
+    tinggi = int(input("Masukkan Tingginya : "))
+    
+    luas = (1/2 * alas * tinggi)
 
     print("Luas Segitiga = ", (luas))
     
