@@ -8,7 +8,7 @@ b = int(input("Sisi B : "))
 c = int(input("Sisi C : "))
 
 
-print("\n" + "=" * 30)
+print("=" * 30)
 print("|           HASIL            |")
 print("=" * 30)
 
@@ -22,7 +22,7 @@ if (a + b > c) and (a + c > b) and (b + c > a):
     else:
         print("Segitiga sembarang, karna ketiga sisinya berbeda")
 
-    print("\n" + "-" * 30)
+    print("-" * 30)
     print("     Hitung Juga Luasnya ")
     print("-" * 30)
     
