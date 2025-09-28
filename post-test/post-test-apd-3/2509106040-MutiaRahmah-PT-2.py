@@ -26,10 +26,8 @@ if (a + b > c) and (a + c > b) and (b + c > a):
     print("-" * 30)
     
     s = (a + b + c) / 2
-    keliling = s * 2
     luas = (s * (s - a) * (s - b) * (s - c)) ** 0.5
 
-    print("Keliling Segitiga = ", (keliling))
     print("Luas Segitiga = ", (luas))
     
 else:
