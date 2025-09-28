@@ -22,7 +22,7 @@ if (a + b > c) and (a + c > b) and (b + c > a):
         print("Segitiga sembarang, karna ketiga sisinya berbeda")
 
     print("\n" + "-" * 30)
-    print("Hasil Luas")
+    print("          Hasil Luas")
     print("-" * 30)
     
     s = (a + b + c) / 2
