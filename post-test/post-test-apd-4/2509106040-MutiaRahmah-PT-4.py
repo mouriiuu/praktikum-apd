@@ -60,7 +60,7 @@ if i < 4:
         jawab = input("Apakah ingin menghitung lagi? (ya/tidak) : ")
 
     print("\n Perhitunga Selesai, Terima kasih")
-    print("\n" + "=" * 50)
-    
-sleep(5)
+    print("=" * 50 + "\n")
+
+sleep(30)
 os.system('cls')
