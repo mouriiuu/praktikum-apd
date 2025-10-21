@@ -359,4 +359,8 @@ while True:
 
     else:
         print("\nPilihan tidak valid!")
+<<<<<<< HEAD
         input("\nTekan Enter untuk kembali...")
+=======
+        input("\nTekan Enter untuk kembali...")
+>>>>>>> bcbf3467bad32447291eadcbde91c05923be9419
